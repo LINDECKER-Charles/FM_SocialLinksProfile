@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+      <style>
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+        @font-face {
+            font-family: 'Inter';
+            src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+            font-weight: 100 900;
+            font-style: normal;
+        }    
+        body{
+          font-family: 'Inter', sans-serif;
+        }
+      </style>
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+        extend: {
+            colors: {
+            green: "hsl(75, 94%, 57%)",
+            white: "hsl(0, 0%, 100%)",
+            grey: {
+                700: "hsl(0, 0%, 20%)",
+                800: "hsl(0, 0%, 12%)",
+                900: "hsl(0, 0%, 8%)"
+            }
+            }
+        }
+        }
+    }
+    </script>
+
+</head>
+<body class=" bg-grey-900 flex items-center justify-center min-h-screen">
+
+  <div class=" bg-grey-800 rounded-md flex items-center justify-center flex-col p-4">
+    <div class="">
+      <img 
+      class=" w-auto h-10 rounded-full"
+      src="./assets/images/avatar-jessica.jpeg" 
+      alt="Photo de Jessica Randall">
+    </div>
+    <h1 class=" text-white mt-2 text-sm">
+      Jessica Randall
+    </h1>
+    <div itemscope itemtype="https://schema.org/PostalAddress"
+    class=" text-green text-[7px]">
+      <span itemprop="addressLocality">London</span>, 
+      <spanitemprop="addressCountry">United Kingdom</span>
+    </div>
+    <blockquote class=" mt-4 mb-4 
+    text-[7px] text-white font-extralight
+    ">"Front-end developer and avid reader."</blockquote>
+    <div class="flex flex-col justify-center content-center text-center gap-2">
+      <a target="_blank" href="https://www.frontendmentor.io/profile/LINDECKER-Charles" class="text-white bg-grey-700 text-[7px] px-12 py-1.5 rounded-md hover:bg-green hover:text-black font-semibold transition-colors duration-300">
+        Frontend Mentor
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/charles-lindecker/" class="text-white bg-grey-700 text-[7px] px-12 py-1.5 rounded-md hover:bg-green hover:text-black font-semibold transition-colors duration-300">
+        LinkedIn
+      </a>
+      <a target="_blank" href="https://github.com/LINDECKER-Charles" class="text-white bg-grey-700 text-[7px] px-12 py-1.5 rounded-md hover:bg-green hover:text-black font-semibold transition-colors duration-300">
+        GitHub
+      </a>
+      <a target="_blank" href="https://x.com/" class="text-white bg-grey-700 text-[7px] px-12 py-1.5 rounded-md hover:bg-green hover:text-black font-semibold transition-colors duration-300">
+        Twitter
+      </a>
+      <a target="_blank" href="https://www.instagram.com/" class="text-white bg-grey-700 text-[7px] px-12 py-1.5 rounded-md hover:bg-green hover:text-black font-semibold transition-colors duration-300">
+        Instagram
+      </a>
+    </div>
+
+  </div>
+  
+  <div class="sr-only text-center text-xs">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-blue-500">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/charles-lindecker/" class="text-blue-500">Charles LINDECKER</a>.
+  </div>
+</body>
+</html>
