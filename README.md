@@ -26,8 +26,8 @@ Les utilisateurs doivent pouvoir :
 
 ### Links
 
-- Solution URL: [https://github.com/LINDECKER-Charles/social-links-profile](https://github.com/LINDECKER-Charles/social-links-profile)
-- Live Site URL: [https://lindecker-charles.github.io/social-links-profile](https://lindecker-charles.github.io/social-links-profile)
+- Solution URL: [https://github.com/LINDECKER-Charles/FM_SocialLinksProfile](https://github.com/LINDECKER-Charles/FM_SocialLinksProfile)
+- Live Site URL: [https://fm-social-links-profile-olive.vercel.app/](https://fm-social-links-profile-olive.vercel.app/)
 
 ## My process
 
